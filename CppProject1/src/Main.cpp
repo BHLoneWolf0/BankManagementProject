@@ -29,7 +29,7 @@ int main() {
            
             if (system.checkLogin(userinformationFile, username, password)) {
                 std::cout << "Login succeed \n";
-                int choose = 0;
+                int choose;
                 std::cout << "(1)Balance\n(2)Depoist\n(3)Withdraw\n";
                 std::cin >> choose;
                
@@ -65,7 +65,6 @@ int main() {
             break;
         default:
             std::cout << "Please enter a valid number 1 or 2\n";
-            std::cin >> choose;
             break;
         }
 }
