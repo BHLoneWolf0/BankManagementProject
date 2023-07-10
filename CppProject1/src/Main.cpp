@@ -12,8 +12,8 @@ int main() {
 
     std::string ReadBuffer;
 
-    char username[25] = "";
-    char password[16] = " \r\n ";
+    std::string username = "";
+    std::string password = "";
 
     std::cout << "Welcome to the Bank\nPlease type the number (1 or 2) to process\n";
     std::cout << "By pressing 1 you're entering a already existing account\nBy pressing 2 you're entering a new account\n";
@@ -22,6 +22,7 @@ int main() {
     int amount;
     int money = {};
     int balance = system.GetBalance(BalanceFile);
+
     std::cin >> choose;
 
         switch (choose) {
