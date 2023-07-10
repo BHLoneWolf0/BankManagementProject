@@ -140,10 +140,6 @@
     <ClInclude Include="src\Headers\BankSystem.h" />
     <ClInclude Include="src\Headers\FileSystem.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="Balance.txt" />
-    <Text Include="UserInformation.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -33,8 +33,4 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="UserInformation.txt" />
-    <Text Include="Balance.txt" />
-  </ItemGroup>
 </Project>
