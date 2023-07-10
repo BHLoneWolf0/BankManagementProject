@@ -133,12 +133,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\BankSystem.cpp" />
-    <ClCompile Include="src\FileSystem.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\BankSystem.h" />
-    <ClInclude Include="src\Headers\FileSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
