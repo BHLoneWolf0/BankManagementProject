@@ -1,10 +1,8 @@
 #include <iostream>
-#include "Headers/FileSystem.h"
 #include "Headers/BankSystem.h"
 
 
 int main() {
-    FileSystem file;
     BankSystem system;
    
     std::string userinformationFile = "Userinformation.txt";
