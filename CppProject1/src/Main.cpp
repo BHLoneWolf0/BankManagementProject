@@ -18,9 +18,10 @@ int main() {
     std::cout << "Welcome to the Bank\nPlease type the number (1 or 2) to process\n";
     std::cout << "By pressing 1 you're entering a already existing account\nBy pressing 2 you're entering a new account\n";
 
-    int choose = 0;
+    int choose;
     int amount;
-    int money = {};
+    int money;
+
     int balance = system.GetBalance(BalanceFile);
 
     std::cin >> choose;
