@@ -12,8 +12,8 @@ int main() {
 
     std::string ReadBuffer;
 
-    std::string username = "";
-    std::string password = "";
+    std::string username;
+    std::string password;
 
     std::cout << "Welcome to the Bank\nPlease type the number (1 or 2) to process\n";
     std::cout << "By pressing 1 you're entering a already existing account\nBy pressing 2 you're entering a new account\n";
