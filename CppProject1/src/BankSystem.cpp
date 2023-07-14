@@ -54,7 +54,7 @@ void BankSystem::Balance(std::string filename) {
     std::ifstream file(filename);
     std::string line;
     while (getline(file, line)) {
-        std::cout << line;
+        std::cout << line << "\n";
     }
     file.close();
 }
@@ -81,14 +81,6 @@ int BankSystem::WithdrawMoney(std::string filename, int balance, int amount) {
    
     return balance;
     
-}
-
-int BankSystem::GetBalance(std::string filename) {
-    std::ifstream file(filename);
-    int balance;
-    file >> balance;
-    return balance;
-    file.close();
 }
 
 void BankSystem::WriteBalance(std::string filename, int balance) {
