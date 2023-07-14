@@ -83,6 +83,14 @@ int BankSystem::WithdrawMoney(std::string filename, int balance, int amount) {
     
 }
 
+int BankSystem::GetBalance(std::string filename) {
+    std::ifstream file(filename);
+    int balance;
+    file >> balance;
+    return balance;
+    file.close();
+}
+
 void BankSystem::WriteBalance(std::string filename, int balance) {
     std::ofstream file(filename);
     file << balance;
